@@ -33,9 +33,9 @@ void print_coefficients(const std::vector<long long> &roots) {
 }
 
 int main() {
-    std::ifstream infile("test5.json");
+    std::ifstream infile("input.json");
     if (!infile.is_open()) {
-        std::cerr << "Failed to open test5.json\n";
+        std::cerr << "Failed to open input.json\n";
         return 1;
     }
     json data;
